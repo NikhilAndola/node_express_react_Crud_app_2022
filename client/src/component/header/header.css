@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    background-color: #a58aff;
+}
+
+.header > p {
+    font-size: 1.3rem;
+    color: #fff;
+    text-shadow: 1px 2px 5px #0e0e0e;
+    font-weight: 700;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.header-right p {
+    font-weight: 500;
+}
+
+.header-right p:hover {
+    color: #fff;
+    transition: color 0.4s ease-in 0.2s;
+}
+
+
+.active {
+    color: #fff;
+    text-shadow: 1px 2px 5px #0e0e0e;
+    font-weight: 700;
+}
+
+.header-right {
+    display: flex;
+    gap: 10px;
+    align-self: center;
+}
+
+@media screen and (max-width: 500px) {
+   
+}
